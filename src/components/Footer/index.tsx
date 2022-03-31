@@ -1,6 +1,6 @@
-export const WhyUsSection = () => {
+export const Footer:React.FC = () => {
     return (
-        <section>
+        <section className="section">
             <section>
                 <img src="" alt="" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>

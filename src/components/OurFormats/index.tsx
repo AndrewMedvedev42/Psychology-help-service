@@ -1,7 +1,6 @@
-export const FormatsSection = () => {
+export const OurFormatsSection:React.FC = () => {
     return (
-        <section>
-            <section>
+        <section className="section">
                 <h1>Our formats</h1>
                 <section>
                     <img src="#" alt="" />
@@ -11,7 +10,6 @@ export const FormatsSection = () => {
                     <img src="#" alt="" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
                 </section>
-            </section>
         </section>
     )
 }

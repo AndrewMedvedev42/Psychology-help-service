@@ -1,7 +1,6 @@
-export const FormatsSection = () => {
+export const ContatcSection:React.FC = () => {
     return (
-        <section>
-            <section>
+        <section className="section">
                 <h1>Benefits</h1>
                 <ul>
                     <li>
@@ -17,7 +16,6 @@ export const FormatsSection = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
                     </li>
                 </ul>
-            </section>
         </section>
     )
 }

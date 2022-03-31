@@ -1,19 +1,25 @@
-import { HomeSection } from "./pages/home";
-import { PropositionsSection } from "./pages/propositionsSection";
-import { WhyUsSection } from "./pages/whyUs";
-import { TryFreeSection } from "./pages/tryFree";
-import { FormatsSection } from "./pages/formatsSection";
+import { HomeSection } from "./components/Home";
+import { PropositionsSection } from "./components/Propositions";
+import { TryFreeSection } from "./components/tryFree";
+import { OurFormatsSection } from "./components/OurFormats";
+import { OurProfecionalsSection } from "./components/OurProfecionals"
+import { BenefitsFromUsSection } from "./components/BenefitsFromUs"
+import { GuarantiesSection } from "./components/Guaranties"
+import { ContatcSection } from "./components/OurSocialMedias"
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
     <article className="App">
-      <section>
         <HomeSection/>
         <PropositionsSection/>
-        <WhyUsSection/>
         <TryFreeSection/>
-        <FormatsSection/>
-      </section>
+        <OurFormatsSection/>
+        <OurProfecionalsSection/>
+        <BenefitsFromUsSection/>
+        <GuarantiesSection/>
+        <ContatcSection/>
+        <Footer/>
     </article>
   );
 }

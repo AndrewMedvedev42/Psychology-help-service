@@ -1,6 +1,6 @@
-export const PropositionsSection = () => {
+export const WhyUsSection:React.FC = () => {
     return (
-        <section>
+        <section className="section">
             <h1>Why us?s</h1>
             <ul>
                 <li>1</li>
@@ -10,10 +10,6 @@ export const PropositionsSection = () => {
                 <li>5</li>
                 <li>6</li>
             </ul>
-            <div>
-                <button>Solve your situation</button>
-                <p>First 10 minutes are free</p>
-            </div>
         </section>
     )
 }

@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+.App{
+    padding: 0 3.5rem;
+    border: 5px solid red;
+    .section{
+        border: 5px solid rgb(69, 219, 0);
+    }
+}

@@ -1,6 +1,6 @@
-export const WhyUsSection = () => {
+export const OurProfecionalsSection:React.FC = () => {
     return (
-        <section>
+        <section className="section">
             <h1>Why us?s</h1>
             <p>Lorem ipsum</p>
             <article>

@@ -1,6 +1,6 @@
-export const contatcSection = () => {
+export const BenefitsFromUsSection:React.FC = () => {
     return (
-        <section>
+        <section className="section">
                 <h1>Benefits</h1>
                 <ul>
                     <li>

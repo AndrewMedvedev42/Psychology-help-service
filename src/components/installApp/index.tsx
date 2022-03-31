@@ -1,6 +1,6 @@
-export const FormatsSection = () => {
+export const installAppSection:React.FC = () => {
     return (
-        <section>
+        <section className="section">
                 <article>
                     <h1>Try to call</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>

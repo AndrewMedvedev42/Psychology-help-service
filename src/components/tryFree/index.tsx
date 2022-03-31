@@ -1,6 +1,6 @@
-export const TryFreeSection = () => {
+export const TryFreeSection:React.FC = () => {
     return (
-        <section>
+        <section className="section">
             <article>
                 <h1>Try for free</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
